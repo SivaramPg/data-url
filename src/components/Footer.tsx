@@ -4,7 +4,13 @@ import SpriteIcon, { Icons } from './SpriteIcon'
 
 export default function Footer() {
   return (
-    <footer className="w-full h-48 border py-4 flex flex-col items-center gap-4 justify-around bg-slate-200">
+    <footer
+      className="w-full h-48 border py-4 flex flex-col items-center gap-4 justify-around border-t-2 border-t-slate-400"
+      style={{
+        background:
+          'linear-gradient(133deg,rgba(11,233,253,0.43),rgba(140,150,60,0.36))',
+      }}
+    >
       <div className="h-auto container px-4 mx-auto flex flex-wrap items-center justify-between gap-6">
         <div className="">
           <p className="inline-flex items-center gap-1 whitespace-nowrap">
