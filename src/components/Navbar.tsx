@@ -9,7 +9,7 @@ export default function Navbar() {
           className="inline-flex items-center justify-center gap-2 hover:drop-shadow-md duration-100"
         >
           <div className="font-bold text-2xl md:text-3xl bg-gradient-to-l from-fuchsia-500 to-pink-500 bg-clip-text text-transparent">
-            View Data URL
+            Visualize Data URL
           </div>
         </Link>
       </nav>
